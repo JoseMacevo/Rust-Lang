@@ -1,0 +1,19 @@
+Stack and Heap -> Abstracciones que nos permiten comprender en que
+parte de la memoria se encuentran almacenadas nuestras variables.
+
+
+Stack -> Aquí se encuentran alojadas todas las variables de las que
+ya conocemos su longitud (tamaño) este es muy rápido y se verá como
+una pila en concreto como un LIFO.
+
+fn main(){
+
+// Nueva variable
+// La variable posee un tamaño de 32 bytes
+
+let mut x: i32 = 10;
+
+}
+Heap -> Aquí se encontrarán alojadas todas las variables que puedan
+modificar su tamaño en tiempo de ejecución, por ejemplo, los vectores
+y Strings (mutables), este es mucho más lento que el Stack.
