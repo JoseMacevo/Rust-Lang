@@ -17,8 +17,8 @@ pub fn run(){
     // Placeholder for debug traits
     println!("{:?}", (12, true, "Hello"));
 
-    // BAsuc math
+    // Basic math
     println!("10 + 10 = {}", 10 + 10);
-    
+
 
 }

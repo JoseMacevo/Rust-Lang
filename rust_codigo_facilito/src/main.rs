@@ -1,3 +1,9 @@
+//mod hello_world;
+//mod cargo;
+mod variables;
+
 fn main() {
-    println!("Hello, world!");
+    //hello_world::run();
+    //cargo::run();
+    variables::run();
 }
